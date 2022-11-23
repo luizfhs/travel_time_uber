@@ -10,18 +10,18 @@ SOLUTION TECHNICAL OVERVIEW
 			4 - qry_travel_time_uber.py	QUERY
 		
 	- INGESTION 
-		Storage path: loka/data_lake/ingestion
+		Storage path: loka/data_lake/ingestion (Loka.zip)
 		Connect do source (data world URL) using a parameter file 'etl\ingestion_parameters.json', 
 		Load data keeping its original format (raw data)
 		
 	- INTEGRATION
-		Storage path: loka/data_lake/managed/integration
+		Storage path: loka/data_lake/managed/integration (Loka.zip)
 		Create one repository for all travel data 
         	Match file format and layout for further processing
         	Temporary storage for integration and small transformations
 
 	- MANAGED 
-		Storage path: loka/data_lake/managed
+		Storage path: loka/data_lake/managed (Loka.zip)
 		Write files in parquet for better performance
         	Objects padronization, pre stage for dimensional objects
         	Permanent storage, pre stage for dimensional objects
@@ -29,6 +29,7 @@ SOLUTION TECHNICAL OVERVIEW
 		Generates three tables:	origin_movement, destination_movement and travel_time
 				
 	- QUERY 
+		Storage path: loka/data_lake/query (Loka.zip)
 		Dimensional modeling: dim_travel_address and ft_travel_time
 		Better business analysis
 
