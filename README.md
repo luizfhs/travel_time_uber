@@ -25,7 +25,7 @@ SOLUTION TECHNICAL OVERVIEW
 		Write files in parquet for better performance
         	Objects padronization, pre stage for dimensional objects
         	Permanent storage, pre stage for dimensional objects
-       		Data enrichment (longitude, latitude and distance)
+		Data enrichment (longitude, latitude and distance)
 		Generates three tables:	origin_movement, destination_movement and travel_time
 				
 	- QUERY 
