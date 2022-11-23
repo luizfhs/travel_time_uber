@@ -5,9 +5,9 @@ SOLUTION TECHNICAL OVERVIEW
 		
 	- Order of execution 
 			1 - ing_travel_time_uber.py 	INGESTION
-			2 - int_travel_time_uber.py		INTEGRATION
+			2 - int_travel_time_uber.py	INTEGRATION
 			3 - mng_travel_time_uber.py 	MANAGEMENT
-			4 - qry_travel_time_uber.py		QUERY
+			4 - qry_travel_time_uber.py	QUERY
 		
 	- INGESTION 
 		Storage path: loka/data_lake/ingestion
