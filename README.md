@@ -17,15 +17,15 @@ SOLUTION TECHNICAL OVERVIEW
 	- INTEGRATION
 		Storage path: loka/data_lake/managed/integration
 		Create one repository for all travel data 
-        Match file format and layout for further processing
-        Temporary storage for integration and small transformations
+        	Match file format and layout for further processing
+        	Temporary storage for integration and small transformations
 
 	- MANAGED 
 		Storage path: loka/data_lake/managed
 		Write files in parquet for better performance
-        Objects padronization, pre stage for dimensional objects
-        Permanent storage, pre stage for dimensional objects
-        Data enrichment (longitude, latitude and distance)
+        	Objects padronization, pre stage for dimensional objects
+        	Permanent storage, pre stage for dimensional objects
+       		Data enrichment (longitude, latitude and distance)
 		Generates three tables:	origin_movement, destination_movement and travel_time
 				
 	- QUERY 
