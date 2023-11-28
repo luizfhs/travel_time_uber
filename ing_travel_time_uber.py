@@ -17,6 +17,8 @@ import pandas as pd
 from urllib import request
 from datetime import date
 
+A = 1
+
 today = date.today()
 date_ingestion = today.strftime("%d%m%Y")
 job_name = "ing_travel_time_uber"
